@@ -4,12 +4,9 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
-
-    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
-
-    <title>Frontend Mentor | [Challenge Name Here]</title>
-    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
+    <title>Social Media Dashboard</title>
+    <link rel="stylesheet" href="styles/style.css" />
 </head>
 
 <body>
@@ -21,297 +18,383 @@
                         Social Media Dashboard
                     </h1>
                 </div>
-                Total Followers: 23,004
+
+                <div class="total">
+                    <h3>
+                        Total Followers: 23,004
+                    </h3>
+                </div>
             </div>
-            <div class="total">
-                <h3>
-                    Dark Mode
-                </h3>
+            <div class="darkswitcher">
+                <div class="dark">
+                    <h3>
+                        Dark Mode
+                    </h3>
+                </div>
+
+                <div class="switcher">
+                    <!-- Rounded switch -->
+                    <label class="switch">
+                        <input type="checkbox" />
+                        <span class="slider round"></span>
+                    </label>
+                </div>
             </div>
         </div>
 
         <div class="BigContainer">
-
             <div class="Bbox">
                 <div class="user">
-                    <img src="images/icon-facebook.svg" alt="">
+                    <img src="images/icon-facebook.svg" alt="" />
                     <h3>
-
                         @nathanf
                     </h3>
                 </div>
                 <h1 class="number">
                     1987
                 </h1>
-                <h3 class="text">
+                <h4 class="text">
                     Followers
-
-                </h3>
+                </h4>
                 <div class="stat">
-                    <img src="images/icon-up.svg" alt="">
+                    <img src="images/icon-up.svg" alt="" />
                     <h3 class="statcolor">
                         12 Today
-
                     </h3>
                 </div>
             </div>
 
-
             <div class="Bbox">
                 <div class="user">
-                    <img src="images/icon-twitter.svg" alt="">
+                    <img src="images/icon-twitter.svg" alt="" />
                     <h3>
-
                         @nathanf
                     </h3>
                 </div>
                 <h1 class="number">
                     1044
                 </h1>
-                <h3 class="text">
-
+                <h4 class="text">
                     Followers
-                </h3>
+                </h4>
                 <div class="stat">
-                    <img src="images/icon-up.svg" alt="">
+                    <img src="images/icon-up.svg" alt="" />
                     <h3 class="statcolor">
                         99 Today
-
                     </h3>
                 </div>
             </div>
 
-
-
             <div class="Bbox">
                 <div class="user">
-                    <img src="images/icon-instagram.svg" alt="">
+                    <img src="images/icon-instagram.svg" alt="" />
                     <h3>
-
                         @realnathanf
                     </h3>
                 </div>
                 <h1 class="number">
                     11k
                 </h1>
-                <h3 class="text">
-
+                <h4 class="text">
                     Followers
-                </h3>
+                </h4>
                 <div class="stat">
-                    <img src="images/icon-up.svg" alt="">
+                    <img src="images/icon-up.svg" alt="" />
                     <h3 class="statcolor">
                         1099 Today
-
                     </h3>
                 </div>
             </div>
 
-
             <div class="Bbox">
                 <div class="user">
-                    <img src="images/icon-youtube.svg" alt="">
+                    <img src="images/icon-youtube.svg" alt="" />
                     <h3>
-
                         Nathan F.
                     </h3>
                 </div>
                 <h1 class="number">
                     8239
                 </h1>
-                <h3 class="text">
-
+                <h4 class="text">
                     Subscribers
-                </h3>
+                </h4>
                 <div class="stat">
-                    <img src="images/icon-down.svg" alt="">
+                    <img src="images/icon-down.svg" alt="" />
                     <h3 class="statcolor">
                         144 Today
-
                     </h3>
                 </div>
             </div>
-
-
         </div>
 
         <div class="MiddleContainer">
-            Overview - Today
+            <h1>
+                Overview - Today
+            </h1>
         </div>
 
 
-                <div class="SmallContainer">
-                    <div class="Sbox">
-                        <div class="view">
-                            <h3>
-
-                                Page Views
-                            </h3>
-                            <img src="images/icon-facebook.svg" alt="">
-                            <div class="BottomNumbers">
-                                <div class="LNumber">
-                                    87
-                                </div>
-                                <div class="proc">
-                                    <img src="images/icon-up.svg" alt="">
-                                    <h4>
-                                        3%
-                                    </h4>
-                                </div>
-                            </div>
-                        </div>
 
         <div class="SmallContainer">
             <div class="Sbox">
-                <div class="view">
-                    <h3>
-
-                    </h3>
-                    <img src="" alt="">
-                    <div class="BottomNumbers">
-                        <div class="LNumber">
-
+                <div class="TopPart">
+                    <div class="view">
+                        <h3>
+                            Page Views
+                        </h3>
+                    </div>
+                    <div class="image">
+                        <img src="images/icon-facebook.svg" alt="" />
+                    </div>
+                </div>
+                <div class="BottomPart">
+                    <div class="LNumber">
+                        <h1>
+                            87
+                        </h1>
+                    </div>
+                    <div class="proc">
+                        <div class="image2">
+                            <img src="images/icon-up.svg" alt="" />
                         </div>
-                        <div class="proc">
-                            <img src="" alt="">
+                        <div class="procval">
                             <h4>
-
+                                3%
                             </h4>
                         </div>
                     </div>
-                </div>
-
-        <div class="SmallContainer">
-            <div class="Sbox">
-                <div class="view">
-                    <h3>
-
-                    </h3>
-                    <img src="" alt="">
-                    <div class="BottomNumbers">
-                        <div class="LNumber">
-
-                        </div>
-                        <div class="proc">
-                            <img src="" alt="">
-                            <h4>
-
-                            </h4>
-                        </div>
-                    </div>
-                </div>
-
-        <div class="SmallContainer">
-            <div class="Sbox">
-                <div class="view">
-                    <h3>
-
-                    </h3>
-                    <img src="" alt="">
-                    <div class="BottomNumbers">
-                        <div class="LNumber">
-
-                        </div>
-                        <div class="proc">
-                            <img src="" alt="">
-                            <h4>
-
-                            </h4>
-                        </div>
-                    </div>
-                </div>
-
-        <div class="SmallContainer">
-            <div class="Sbox">
-                <div class="view">
-                    <h3>
-
-                    </h3>
-                    <img src="" alt="">
-                    <div class="BottomNumbers">
-                        <div class="LNumber">
-
-                        </div>
-                        <div class="proc">
-                            <img src="" alt="">
-                            <h4>
-
-                            </h4>
-                        </div>
-                    </div>
-                </div>
-
-        <div class="SmallContainer">
-            <div class="Sbox">
-                <div class="view">
-                    <h3>
-
-                    </h3>
-                    <img src="" alt="">
-                    <div class="BottomNumbers">
-                        <div class="LNumber">
-
-                        </div>
-                        <div class="proc">
-                            <img src="" alt="">
-                            <h4>
-
-                            </h4>
-                        </div>
-                    </div>
-                </div>
-
-        <div class="SmallContainer">
-            <div class="Sbox">
-                <div class="view">
-                    <h3>
-
-                    </h3>
-                    <img src="" alt="">
-                    <div class="BottomNumbers">
-                        <div class="LNumber">
-
-                        </div>
-                        <div class="proc">
-                            <img src="" alt="">
-                            <h4>
-
-                            </h4>
-                        </div>
-                    </div>
-                </div>
-
-        <div class="SmallContainer">
-            <div class="Sbox">
-                <div class="view">
-                    <h3>
-
-                    </h3>
-                    <img src="" alt="">
-                    <div class="BottomNumbers">
-                        <div class="LNumber">
-
-                        </div>
-                        <div class="proc">
-                            <img src="" alt="">
-                            <h4>
-
-                            </h4>
-                        </div>
-                    </div>
-                </div>
-
-                    </div>
-                    Page Views 87 3%
-                    Likes 52 2%
-                    Likes 5462 2257%
-                    Profile Views 52k 1375%
-                    Rfetweets 117 303%
-                    Likes 507 553%
-                    Likes 107 19%
-                    Total Views 1407 12%
                 </div>
             </div>
+
+
+
+            <div class="Sbox">
+                <div class="TopPart">
+                    <div class="view">
+                        <h3>
+                            Likes
+                        </h3>
+                    </div>
+                    <div class="image">
+                        <img src="images/icon-facebook.svg" alt="" />
+                    </div>
+                </div>
+                <div class="BottomPart">
+                    <div class="LNumber">
+                        <h1>
+                            52
+                        </h1>
+                    </div>
+                    <div class="proc">
+                        <div class="image2">
+                            <img src="images/icon-down.svg" alt="" />
+                        </div>
+                        <div class="procval">
+                            <h4>
+                                2%
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="Sbox">
+                <div class="TopPart">
+                    <div class="view">
+                        <h3>
+                            Likes
+                        </h3>
+                    </div>
+                    <div class="image">
+                        <img src="images/icon-instagram.svg" alt="" />
+                    </div>
+                </div>
+                <div class="BottomPart">
+                    <div class="LNumber">
+                        <h1>
+                            5462
+                        </h1>
+                    </div>
+                    <div class="proc">
+                        <div class="image2">
+                            <img src="images/icon-up.svg" alt="" />
+                        </div>
+                        <div class="procval">
+                            <h4>
+                                2257%
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="Sbox">
+                <div class="TopPart">
+                    <div class="view">
+                        <h3>
+                            Page Views
+                        </h3>
+                    </div>
+                    <div class="image">
+                        <img src="images/icon-instagram.svg" alt="" />
+                    </div>
+                </div>
+                <div class="BottomPart">
+                    <div class="LNumber">
+                        <h1>
+                            52k
+                        </h1>
+                    </div>
+                    <div class="proc">
+                        <div class="image2">
+                            <img src="images/icon-up.svg" alt="" />
+                        </div>
+                        <div class="procval">
+                            <h4>
+                                1375%
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="Sbox">
+                <div class="TopPart">
+                    <div class="view">
+                        <h3>
+                            Retweets
+                        </h3>
+                    </div>
+                    <div class="image">
+                        <img src="images/icon-twitter.svg" alt="" />
+                    </div>
+                </div>
+                <div class="BottomPart">
+                    <div class="LNumber">
+                        <h1>
+                            117
+                        </h1>
+                    </div>
+                    <div class="proc">
+                        <div class="image2">
+                            <img src="images/icon-up.svg" alt="" />
+                        </div>
+                        <div class="procval">
+                            <h4>
+                                303%
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="Sbox">
+                <div class="TopPart">
+                    <div class="view">
+                        <h3>
+                            Likes
+                        </h3>
+                    </div>
+                    <div class="image">
+                        <img src="images/icon-twitter.svg" alt="" />
+                    </div>
+                </div>
+                <div class="BottomPart">
+                    <div class="LNumber">
+                        <h1>
+                            507
+                        </h1>
+                    </div>
+                    <div class="proc">
+                        <div class="image2">
+                            <img src="images/icon-up.svg" alt="" />
+                        </div>
+                        <div class="procval">
+                            <h4>
+                                553%
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="Sbox">
+                <div class="TopPart">
+                    <div class="view">
+                        <h3>
+                            Likes
+                        </h3>
+                    </div>
+                    <div class="image">
+                        <img src="images/icon-youtube.svg" alt="" />
+                    </div>
+                </div>
+                <div class="BottomPart">
+                    <div class="LNumber">
+                        <h1>
+                            107
+                        </h1>
+                    </div>
+                    <div class="proc">
+                        <div class="image2">
+                            <img src="images/icon-down.svg" alt="" />
+                        </div>
+                        <div class="procval">
+                            <h4>
+                                19%
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="Sbox">
+                <div class="TopPart">
+                    <div class="view">
+                        <h3>
+                            Total Views
+                        </h3>
+                    </div>
+                    <div class="image">
+                        <img src="images/icon-youtube.svg" alt="" />
+                    </div>
+                </div>
+                <div class="BottomPart">
+                    <div class="LNumber">
+                        <h1>
+                            1407
+                        </h1>
+                    </div>
+                    <div class="proc">
+                        <div class="image2">
+                            <img src="images/icon-down.svg" alt="" />
+                        </div>
+                        <div class="procval">
+                            <h4 id='pr6'>
+                                12%
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
 </body>
 
 </html>

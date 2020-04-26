@@ -1,0 +1,35 @@
+@import 'TopContainer';
+@import 'variables';
+@import'switcher';
+@import 'BigContainer';
+@import'MiddleContainer';
+@import 'SmallContainer';
+
+
+
+
+
+
+ * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 11px;
+  font-family: Inter, sans-serif;
+  color: $desturated-blue; 
+}
+
+
+    body {
+      background-color: $very-dark-blue;
+    }
+
+
+ @media only screen and (max-width: 375px) {
+    body {
+      background-color: $very-dark-blue;
+    }
+
+
+  }
+  

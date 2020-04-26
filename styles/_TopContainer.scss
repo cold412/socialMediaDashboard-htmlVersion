@@ -1,0 +1,40 @@
+@import 'variables';
+
+
+.TopContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 3vh;
+    align-items: flex-start;
+    width: 56vh;
+
+    h1 {
+        color: white;
+        font-size: 4vh;
+
+    }
+
+        h3 {
+        font-size: 2vh;
+    }
+}
+.social {
+    width: 50vh;
+}
+
+.total {
+    padding-top: 1vh;
+    padding-bottom: 3vh;
+   border-bottom: 0.1rem solid $desturated-blue;
+}
+
+
+
+.darkswitcher {
+    display: flex;
+    align-items: center;
+    width: 50vh;
+    justify-content: space-between;
+    padding-top: 3vh;
+    
+}

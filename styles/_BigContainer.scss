@@ -1,0 +1,72 @@
+@import 'variables';
+
+
+.BigContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Bbox {
+    width: 50vh;
+    background-color: $dark-desturated-blue;
+    padding: 1vh 1vh 1vh 1vh;
+    margin-bottom: 3vh;
+    padding-top: 2vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1vh;
+
+    h1 {
+        font-size: 5rem;
+        color: white;
+        padding-top: 3vh;
+    }
+
+    h4 {
+        text-transform: uppercase;
+        letter-spacing: 1vh;
+    }
+    img {
+        padding-right: 1vh;
+    }
+
+}
+
+
+.user {
+    display: flex;
+    width: 11vh;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 3vh;
+}
+
+.stat {
+    display: flex;
+    align-items: center;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+
+
+.Bbox:nth-child(1) {
+    border-top: 0.5vh solid $facebook;
+}
+
+.Bbox:nth-child(2) {
+    border-top: 0.5vh solid $twitter;
+}
+.Bbox:nth-child(3) {
+    border-top: 0.5vh solid yellow;
+}
+.Bbox:nth-child(4) {
+    border-top: 0.5vh solid $youtube;
+}
+
+
+
+
+
