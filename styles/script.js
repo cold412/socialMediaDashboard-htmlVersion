@@ -12,10 +12,8 @@ const lightS6 = document.getElementById("Slight6");
 const lightS7 = document.getElementById("Slight7");
 const lightS8 = document.getElementById("Slight8");
 const test = document.getElementById("check");
-const color1 = document.getElementById("fontB1");
-
-
-/* document.getElementById("fontB1").style.color = 'red'; */
+const c1 = document.querySelector('#fontB1');
+const c2 = document.querySelector('#fontB2');
 
 test.addEventListener("click", function() {
     bodybody.classList.toggle("LightBack");
@@ -31,7 +29,20 @@ test.addEventListener("click", function() {
     lightS6.classList.toggle("LightCont");
     lightS7.classList.toggle("LightCont");
     lightS8.classList.toggle("LightCont");
-    fontB1.style.color.toggle("FontDark");
+    c1.classList.toggle("FontDark");
+    c2.classList.toggle("FontDark");
+    lightB.classList.toggle("FontDark");
+    lightB2.classList.toggle("FontDark");
+    lightB3.classList.toggle("FontDark");
+    lightB4.classList.toggle("FontDark");
+    lightS1.classList.toggle("FontDark");
+    lightS2.classList.toggle("FontDark");
+    lightS3.classList.toggle("FontDark");
+    lightS4.classList.toggle("FontDark");
+    lightS5.classList.toggle("FontDark");
+    lightS6.classList.toggle("FontDark");
+    lightS7.classList.toggle("FontDark");
+    lightS8.classList.toggle("FontDark");
 }
 )
 
