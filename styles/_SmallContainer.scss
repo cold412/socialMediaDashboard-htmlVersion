@@ -85,3 +85,29 @@ padding-bottom: 1vh;
 .Sbox:nth-child(8) .procval h4{
     color: $bright-red;
 }
+
+
+
+
+@media only screen and (min-width: 375px) {
+   
+    .SmallContainer {
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        grid-row: 50% 50%;
+        justify-items: center;
+    }
+    .Sbox {
+        width: 30vh;
+    }
+    .TopPart {
+        width: 23vh;
+    }
+
+    .BottomPart {
+        width: 23vh;
+    }
+  
+    }
+    
+  

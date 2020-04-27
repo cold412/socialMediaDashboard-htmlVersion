@@ -17,11 +17,11 @@
 
 .TopContainer h1 {
   color: white;
-  font-size: 4vh;
+  font-size: 4rem;
 }
 
 .TopContainer h3 {
-  font-size: 2vh;
+  font-size: 2rem;
 }
 
 .social {
@@ -46,6 +46,32 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding-top: 3vh;
+}
+
+@media only screen and (min-width: 375px) {
+  .TopContainer {
+    padding-top: 5vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 100%;
+  }
+  .TopContainer h1 {
+    font-size: 3rem;
+  }
+  .total {
+    border-bottom: none;
+  }
+  .darkswitcher {
+    width: 15vh;
+  }
 }
 
 /* Light */
@@ -209,6 +235,19 @@ input:checked + .slider:before {
   border-top: 0.5vh solid #c4032a;
 }
 
+@media only screen and (min-width: 375px) {
+  .BigContainer {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 25% 25% 25% 25%;
+        grid-template-columns: 25% 25% 25% 25%;
+    justify-items: center;
+  }
+  .Bbox {
+    width: 30vh;
+  }
+}
+
 /* Light */
 /* Dark */
 .MiddleContainer {
@@ -341,12 +380,32 @@ input:checked + .slider:before {
   color: #dc414c;
 }
 
+@media only screen and (min-width: 375px) {
+  .SmallContainer {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 25% 25% 25% 25%;
+        grid-template-columns: 25% 25% 25% 25%;
+    grid-row: 50% 50%;
+    justify-items: center;
+  }
+  .Sbox {
+    width: 30vh;
+  }
+  .TopPart {
+    width: 23vh;
+  }
+  .BottomPart {
+    width: 23vh;
+  }
+}
+
 * {
   padding: 0;
   margin: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-size: 11px;
+  font-size: 10px;
   font-family: Inter, sans-serif;
   color: #8b97c6;
 }
@@ -355,9 +414,22 @@ body {
   background-color: #1e202a;
 }
 
-@media only screen and (max-width: 375px) {
-  body {
-    background-color: #1e202a;
+@media only screen and (min-width: 375px) {
+  .container {
+    margin-left: 20vh;
+    margin-right: 20vh;
   }
+}
+
+.LightBack {
+  background-color: white;
+}
+
+.LightCont {
+  background-color: #f0f2fa;
+}
+
+.FontDark {
+  color: red;
 }
 /*# sourceMappingURL=style.css.map */

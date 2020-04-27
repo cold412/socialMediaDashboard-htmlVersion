@@ -1,40 +1,60 @@
-@import 'variables';
-
+@import "variables";
 
 .TopContainer {
-    display: flex;
-    flex-direction: column;
-    padding: 3vh;
-    align-items: flex-start;
-    width: 56vh;
+  display: flex;
+  flex-direction: column;
+  padding: 3vh;
+  align-items: flex-start;
+  width: 56vh;
 
-    h1 {
-        color: white;
-        font-size: 4vh;
+  h1 {
+    color: white;
+    font-size: 4rem;
+  }
 
-    }
-
-        h3 {
-        font-size: 2vh;
-    }
+  h3 {
+    font-size: 2rem;
+  }
 }
 .social {
-    width: 50vh;
+  width: 50vh;
 }
 
 .total {
-    padding-top: 1vh;
-    padding-bottom: 3vh;
-   border-bottom: 0.1rem solid $desturated-blue;
+  padding-top: 1vh;
+  padding-bottom: 3vh;
+  border-bottom: 0.1rem solid $desturated-blue;
 }
 
-
-
 .darkswitcher {
-    display: flex;
-    align-items: center;
-    width: 50vh;
-    justify-content: space-between;
-    padding-top: 3vh;
-    
+  display: flex;
+  align-items: center;
+  width: 50vh;
+  justify-content: space-between;
+  padding-top: 3vh;
+}
+
+@media only screen and (min-width: 375px) {
+
+
+
+    .TopContainer{
+        padding-top: 5vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        h1{
+            font-size: 3rem;
+        }
+    }
+
+    .total {
+        border-bottom: none;
+    }
+
+    .darkswitcher {
+        width: 15vh;
+
+    }
 }

@@ -14,7 +14,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-size: 11px;
+  font-size: 10px;
   font-family: Inter, sans-serif;
   color: $desturated-blue; 
 }
@@ -25,11 +25,27 @@
     }
 
 
- @media only screen and (max-width: 375px) {
-    body {
-      background-color: $very-dark-blue;
-    }
+ @media only screen and (min-width: 375px) {
+   
 
+
+  .container {
+    margin-left: 20vh;
+    margin-right: 20vh;
+
+  }
 
   }
   
+.LightBack{
+  background-color:$white;
+}
+
+.LightCont {
+  background-color: $light-grayish-blue;
+}
+
+
+.FontDark {
+  color: red;
+}
